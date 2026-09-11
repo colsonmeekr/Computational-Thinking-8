@@ -1,0 +1,16 @@
+print ("my name is coulson")
+input()
+print ("i play soccer for saas")
+input()
+print ("i went to evergreen school before saas")
+input()
+print ("i also play soccer for a club team named seattle united")
+input()
+name=input("what is your name ")
+print (f"hello {name} welcome to my fun fact game")
+input()
+print ("tell me a fun facts about yourself")
+fun_fact=input()
+print(f"so if im correct this is your fun fact: {fun_fact}")
+input if answer == yes
+
