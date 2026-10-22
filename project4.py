@@ -6,7 +6,7 @@ hidden_word = random.choice(word_list)
 #print (hidden_word) 
 
 
-
+print ("gusse a five letter word you have five gusses good luck")
 
 # number of gusses this loop goes from line 12 to line 58 and repets 5 times x 
 for i in range(5):
@@ -56,5 +56,3 @@ for i in range(5):
     print(output)
     if output == "🟩🟩🟩🟩🟩":
         print("You win")
-
-
