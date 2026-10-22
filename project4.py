@@ -1,6 +1,6 @@
 import random 
 #this is all the words
-word_list = ["heart","loopy","audio","laugh","trial","sound","quick","jumpy","junky","pluck","goopy","truck","truth","snipe","daddy","crank","zesty","musty","dusty","brain","claim","prank","zoink","poise","plane","shame","plain","train","loser","monky",""]
+word_list = ["heart","loopy","audio","laugh","trial","sound","quick","jumpy","junky","pluck","goopy","truck","truth","snipe","daddy","crank","zesty","musty","dusty","brain","claim","prank","zoink","poise","plane","shame","plain","train","loser","monky",]
 hidden_word = random.choice(word_list)
 #remove the "#" to see the chosen word
 #print (hidden_word) 
@@ -8,7 +8,7 @@ hidden_word = random.choice(word_list)
 
 
 
-# number of gusses 
+# number of gusses this loop goes from line 12 to line 58 and repets 5 times x 
 for i in range(5):
 
     guess_word = input()
