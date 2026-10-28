@@ -45,7 +45,7 @@ else :
 answer5 = input ("would you rather A meet aron judge.  B meet meesi and lebron.  C meet lebron and messi.")
 if answer5 == "A":
     baseball_points += 1
-elif answer5 == "B" or "C":
+elif answer5 == "B" or answer5 == "C":
     soccer_points += 1
 elif answer5 == "C":
     # not needed becouse alresdy incorpprated with the or 
